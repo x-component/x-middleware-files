@@ -1,0 +1,18 @@
+{
+	"name"    : "x-middleware-files",
+	"version" : "0.0.0",
+	"license" : "MIT",
+	"dependencies":{
+		"x-middleware-css"       : "latest",
+		"x-middleware-js"        : "latest",
+		"x-middleware-composite" : "latest"
+	},
+	"devDependencies" : {
+		"vows"    : "latest",
+		"markdox" : "latest"
+	},
+	"main" : "files.js",
+	"scripts": {
+		"prepublish" : "markdox -o README.md ./files.js"
+	}
+}
